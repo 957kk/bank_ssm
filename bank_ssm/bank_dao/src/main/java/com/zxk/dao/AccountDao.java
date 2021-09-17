@@ -1,6 +1,7 @@
 package com.zxk.dao;
 
 import com.zxk.pojo.Account;
+import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 import org.springframework.stereotype.Repository;
 
@@ -12,7 +13,7 @@ import org.springframework.stereotype.Repository;
  **/
 @Repository
 public interface AccountDao {
-    @Select("select * from tb_account where accountId=#{account.accountId} and where password=#{account.password}")
-    Account selectAccountByName_Password(Account account);
+    @Select("select * from tb_account where accountId=#{account.accountId} and password=#{account.password}")
+    Account selectAccountByName_Password(@Param("account") Account account);
 
 }
