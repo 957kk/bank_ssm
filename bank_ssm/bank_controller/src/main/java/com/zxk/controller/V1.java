@@ -1,7 +1,8 @@
 package com.zxk.controller;
 
-import com.zxk.vo.AccountVO;
+import com.zxk.model.vo.AccountVO;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 /**
@@ -14,5 +15,5 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public interface V1 {
 
     @RequestMapping("login")
-    String login(AccountVO accountVo);
+    String login(AccountVO accountVo, Model model);
 }

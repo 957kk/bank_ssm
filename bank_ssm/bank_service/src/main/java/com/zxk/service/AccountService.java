@@ -1,6 +1,8 @@
 package com.zxk.service;
 
-import com.zxk.dto.AccountDTO;
+import com.zxk.model.dto.AccountDTO;
+import com.zxk.model.pojo.Account;
+import com.zxk.model.result.ResponseResult;
 
 /**
  * @program: bank_ssm
@@ -10,5 +12,7 @@ import com.zxk.dto.AccountDTO;
  **/
 public interface AccountService {
 
-    boolean login(AccountDTO dto);
+    ResponseResult login(AccountDTO dto);
+
+    Account selectByAccountId(String accountId);
 }

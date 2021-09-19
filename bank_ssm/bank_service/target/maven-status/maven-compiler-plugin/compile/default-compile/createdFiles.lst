@@ -1,2 +1,5 @@
+com\zxk\service\impl\TradeServiceImpl.class
 com\zxk\service\impl\AccountServiceImpl.class
 com\zxk\service\AccountService.class
+com\zxk\service\advice\TradeService.class
+com\zxk\service\TradeService.class

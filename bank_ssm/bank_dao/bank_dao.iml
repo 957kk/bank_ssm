@@ -17,8 +17,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="bank_moudle" />
+    <orderEntry type="module" module-name="bank_model" />
     <orderEntry type="library" name="Maven: org.mapstruct:mapstruct:1.4.2.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.mapstruct:mapstruct-jdk8:1.4.2.Final" level="project" />
+    <orderEntry type="library" name="Maven: org.projectlombok:lombok-mapstruct-binding:0.2.0" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-context:5.1.9.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-aop:5.1.9.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework:spring-beans:5.1.9.RELEASE" level="project" />

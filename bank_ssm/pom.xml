@@ -12,7 +12,7 @@
         <module>bank_controller</module>
         <module>bank_service</module>
         <module>bank_dao</module>
-        <module>bank_moudle</module>
+        <module>bank_model</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -21,11 +21,10 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-       <!-- <org.mapstruct.version>1.4.2.Final</org.mapstruct.version>
-        <org.projectlombok.version>1.18.20</org.projectlombok.version>
-        <lombok-mapstruct-binding.version>0.2.0</lombok-mapstruct-binding.version>-->
         <com.fasterxml.jackson.core>2.9.0</com.fasterxml.jackson.core>
         <org.springframework.version>5.1.9.RELEASE</org.springframework.version>
+        <dubbo.version>2.7.7</dubbo.version>
+        <zookeeper.version>4.0.0</zookeeper.version>
     </properties>
 
 
@@ -107,6 +106,11 @@
                 <version>${com.fasterxml.jackson.core}</version>
             </dependency>
             <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>1.2.51</version>
+            </dependency>
+            <dependency>
                 <groupId>commons-codec</groupId>
                 <artifactId>commons-codec</artifactId>
                 <version>1.15</version>
@@ -118,9 +122,13 @@
                 <artifactId>druid</artifactId>
                 <version>1.1.10</version>
             </dependency>
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo</artifactId>
+                <version>${dubbo.version}</version>
+            </dependency>
 
 
-            <!-- lombok dependencies should not end up on classpath -->
 
         </dependencies>
     </dependencyManagement>

@@ -20,10 +20,12 @@
           <element id="archive" name="bank_dao-1.0-SNAPSHOT.jar">
             <element id="module-output" name="bank_dao" />
           </element>
-          <element id="archive" name="bank_moudle-1.0-SNAPSHOT.jar">
-            <element id="module-output" name="bank_moudle" />
+          <element id="archive" name="bank_model-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="bank_model" />
           </element>
           <element id="library" level="project" name="Maven: org.mapstruct:mapstruct:1.4.2.Final" />
+          <element id="library" level="project" name="Maven: org.mapstruct:mapstruct-jdk8:1.4.2.Final" />
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok-mapstruct-binding:0.2.0" />
           <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.5.6" />
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.49" />
           <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:2.0.6" />
@@ -31,6 +33,7 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.1.9.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.1.9.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.1.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.9.5" />
           <element id="library" level="project" name="Maven: com.alibaba:druid:1.1.10" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.1.9.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.1.9.RELEASE" />
@@ -38,6 +41,10 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.1.9.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.1.9.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:5.1.9.RELEASE" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.0" />
+          <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
         </element>
       </element>
       <element id="directory" name="META-INF">

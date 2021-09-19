@@ -7,7 +7,7 @@
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:component-scan base-package="com.zxk"/>
+    <context:component-scan base-package="com.zxk.dao"/>
     <context:property-placeholder location="classpath:jdbc.properties"/>
 
     <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
@@ -19,7 +19,7 @@
 
     <bean class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource"/>
-        <property name="typeAliasesPackage" value="com.zxk.pojo"/>
+        <property name="typeAliasesPackage" value="com.zxk.model.pojo"/>
     </bean>
 
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
